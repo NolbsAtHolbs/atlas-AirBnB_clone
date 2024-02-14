@@ -36,3 +36,29 @@
     font-weight: 400;
     font-size: 14px;}
 
+.popover {background-color: #FAFAFA;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	display: none;
+	position: absolute;
+	top: 100%; right: 0;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	list-style: none;
+	margin: 0}
+	
+.popover ul {font-size: 16px;}
+	
+li ul {list-style: none;}
+	
+.amenities {margin-left: 1px;}
+	
+.amenities ul {line-height: 30px;
+		padding: 20px;}
+	
+.locations:hover .popover {display: block;
+		z-index: 100;}
+	
+.amenities:hover .popover {display: block;
+		z-index: 100;}
